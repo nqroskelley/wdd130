@@ -1,0 +1,45 @@
+* {
+  text-align: center;
+  background-color: #faa7c9;
+  margin: 2% auto;
+  width: 71%;
+}
+
+header, ol, footer, #credit {
+  font: 1em sans-serif;
+}
+
+header, main p, h2 {
+  color: white;
+}
+
+li {
+  text-align: left;
+}
+
+h1:hover {
+  color: black;
+}
+
+img {
+  width: 25%;
+}
+
+#quote {
+  font-size: 2em;
+  width: 39%;
+}
+
+ol, #credit {
+  font-weight: bold;
+  width: 90%;
+}
+
+header {
+  font-size: 1.5em;
+}
+
+footer, header, #credit {
+  width: 53%;
+  margin: 3% auto;
+}
