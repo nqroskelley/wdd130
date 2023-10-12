@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Skranji&display=swap');
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
   text-align: center;
   color: #2378A9;
   text-decoration: none;
+  padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,6 +31,10 @@ main section {
 
 body {
   background-color: #2378A9;
+  font-family: Quicksand, Verdana, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -43,19 +50,30 @@ nav a:hover {
   background-color: #F0F3BD;
   color: #2378A9;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .msg {
   background-color: #02C39A;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer {
   background-color: #F0F3BD;
   color: #02C39A;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 .home-title {
   color: #F0F3BD;
+  font-family: Skranji, 'Brush Script MT', fantasy;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -68,10 +86,13 @@ h4 {
 
 .msg h2 {
   color: #F0F3BD;
+  font-family: Skranji, 'Brush Script MT', fantasy;
 }
 
 .msg p {
   color: #F0F3BD;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 footer a {
@@ -97,4 +118,32 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+h2 {
+  margin: 0;
+}
+
+#logo-link {
+  padding-top: 5px;
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #02C39A;
+}
+
+main section img {
+  box-sizing: border-box;
 }

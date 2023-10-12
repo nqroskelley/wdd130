@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #737373;
+}
+
+header img {
+  width: 100%;
+}
+
+main img {
+  border-radius: 50%;
+  border: 15px solid #444444;
+  width: 25%;
+  margin: 3%;
+}
