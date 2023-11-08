@@ -220,6 +220,20 @@ nav {
   box-shadow: 5px 5px 10px black;
 }
 
+#faq img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#faq {
+  color:#F0F3BD
+}
+
+#faq h1 {
+  font-family: Skranji, 'Brush Script MT', fantasy;
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
