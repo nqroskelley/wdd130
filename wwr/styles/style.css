@@ -222,16 +222,19 @@ nav {
 
 #faq img {
   width: 100%;
-  margin-top: 10px;
 }
 
 #faq {
-  color:#F0F3BD
+  color:#F0F3BD;
 }
 
 #faq h1 {
   font-family: Skranji, 'Brush Script MT', fantasy;
   text-align: center;
+}
+
+#faq h1, #faq h2, #faq p {
+  margin: 50px;
 }
 
 @media screen and (max-width: 900px) {
