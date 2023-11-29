@@ -20,7 +20,7 @@ body {
   height: 100%;
 }
 
-#home {
+#home, #when-and-where {
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
   padding: 15px;
 }
 
-#family {
+#family, #road {
   max-width: 100%;
 }
 
@@ -119,6 +119,11 @@ p {
   padding: 10px;
 }
 
+#forest {
+  width: 100%;
+  max-height: 700px;
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -148,5 +153,9 @@ p {
   nav a {
     display: block;
     padding: 15px;
+  }
+  
+  #forest {
+    max-height: 450px;
   }
 }
