@@ -20,7 +20,7 @@ body {
   height: 100%;
 }
 
-#home, #when-and-where {
+#home, #when-and-where, #activities h1 {
   text-align: center;
 }
 
@@ -42,7 +42,7 @@ body {
   padding: 15px;
 }
 
-#family, #road {
+#family, #road, #ski {
   max-width: 100%;
 }
 
@@ -119,7 +119,7 @@ p {
   padding: 10px;
 }
 
-#forest {
+#forest, #sled {
   width: 100%;
   max-height: 700px;
 }
